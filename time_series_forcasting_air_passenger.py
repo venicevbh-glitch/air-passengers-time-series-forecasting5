@@ -23,7 +23,8 @@ from sklearn.metrics import mean_absolute_error
 # -------------------------------
 # Load Dataset
 # -------------------------------
-data = pd.read_csv("/content/airplane-passengers.csv")
+data = pd.read_csv("airplane-passengers.csv")
+
 print(data.head())
 
 # Convert Month to datetime
